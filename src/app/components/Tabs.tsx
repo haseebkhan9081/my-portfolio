@@ -11,18 +11,10 @@ import All from "../data/All";
 import mobile from "../data/mobile";
 export default function Tabs() {
   const [value, setValue] = React.useState('1');
-let length=mobile.length;
-if(length===0){
-   mobile.push({
-    name:"Coming Soon!",
-    img:"/images/comingsoon.png",
-    Description:"Coming Soon!",
-    TechUsed:"Coming Soon!",
-    link:"Coming Soon!",
-    GithubLink:"Coming Soon!"
-  })
+ 
+ 
 
-}
+ 
   const handleChange = (event: 
     React.SyntheticEvent, 
     newValue: string) => {
