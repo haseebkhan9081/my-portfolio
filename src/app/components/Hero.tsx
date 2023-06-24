@@ -29,7 +29,7 @@ function Hero(){
         text-lg select-none text-gray-500 
            h-6 w-15 md:mb-4 sm:mr-0 sm:ml-10 text-left mt-5 mr-2'>
             
-            I'm a
+            I&apos;m a
 </p>  
  <div className='sm:mb-0 sm:pt-4 '> 
  <Typewriter
