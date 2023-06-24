@@ -37,6 +37,7 @@ function Hero(){
     strings: ['Full stack Developer', 'Software Engineer','Web Designer','React-Native Developer','Machine Learning Engineer'],
     autoStart: true,
     loop: true,
+    //@ts-ignore
     onCreateTextNode:function(char,textNode){
         let span =document.createElement('span')
         span.className="mb-2 text-white text-lg sm:mb-0 sm:mt-4 md:text-2xl md:mt-8 md:mb-0 select-none";
