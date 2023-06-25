@@ -26,9 +26,9 @@ export default function Tabs() {
   return (<>  <TabContext value={value}>
         
           <TabList   onChange={handleChange} centered >
-            <Tab className='text-white dark:text-white'   label="All" value="1" />
-            <Tab className='text-white  dark:text-white' label="Web" value="2" />
-            <Tab className='text-white  dark:text-white' label="Mobile" value="3" />
+            <Tab className='text-white dark:text-gray-50'   label="All" value="1" />
+            <Tab className='text-white dark:text-gray-50' label="Web" value="2" />
+            <Tab className='text-white  dark:text-gray-50' label="Mobile" value="3" />
           </TabList>
         
         <TabPanel value="1" > <Grid container spacing={0}   >
