@@ -38,7 +38,7 @@ return  <Card className='
        <div className='flex flex-wrap items-left space-x-2 border-b pb-2 mb-2 border-gray-500' >
         <Chips  tech={props.tech}/></div>
         
-        <Typography variant="body2" color="text.secondary" className=' mt-1 text-gray-400'>
+        <Typography variant="body2"  className=' mt-1 dark:text-gray-300 text-gray-400 '>
           {props.description}
         </Typography>
       </CardContent>

@@ -6,7 +6,7 @@ function Hero(){
     return <><section className="bg-transparent dark:bg-gray-900 h-screen w-scren">
     <div className="py-8 px-4 mx-auto max-w<-screen-xl text-center lg:py-16 lg:px-12">
              
-        <h1 className="mb-4 text-5xl font-extrabold tracking-tight leading-none 
+        <h1 className="mb-4  min-[912px]:mt-80 text-5xl font-extrabold tracking-tight leading-none 
            
           text-white 
           select-none 
@@ -24,6 +24,11 @@ function Hero(){
              md:ml-36
              lg:ml-60 
              xl:ml-96
+             min-[360px]:ml-10
+             min-[820px]:ml-44
+             min-[912px]:ml-60
+             min-[540px]:ml-28
+             min-[500px]:ml-24
              "> 
         <p className='mb-0 sm:ml md:text-2xl 
         text-lg select-none text-gray-500 
@@ -62,7 +67,12 @@ function Hero(){
     items-center  mt-8 ml-16
      sm:justify-between sm:text-sm
      md:mx-auto
-     lg:space-x-10">
+     lg:space-x-10
+      min-[360px]:ml-1
+      min-[390px]:ml-3
+      min-[412px]:ml-6
+      min-[540px]:ml-20
+      min-[500px]:ml-20">
         <HeroButton />
              
         </div> 
