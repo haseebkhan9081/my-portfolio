@@ -16,8 +16,10 @@ function Chips(props:any) {
         return (
            
             <Chip
-            sx={{ backgroundColor:`${bgcolor}`,color:`${tech.color}`,
-          fontWeight:"bold",   
+            sx={{ backgroundColor:`${bgcolor}`,
+            color:`${tech.color}`,
+          fontWeight:"bold", 
+            
           }}
              
             key={index}
