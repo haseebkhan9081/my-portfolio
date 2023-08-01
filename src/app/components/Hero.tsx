@@ -39,7 +39,7 @@ function Hero(){
  <div className='sm:mb-0 sm:pt-4 '> 
  <Typewriter
   options={{
-    strings: ['Full stack Developer', 'Software Engineer','Web Designer','React-Native Developer','Machine Learning Engineer'],
+    strings: ['Full stack Developer', 'Software Engineer','Web Designer'],
     autoStart: true,
     loop: true,
     //@ts-ignore
